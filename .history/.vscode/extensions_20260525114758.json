@@ -1,0 +1,34 @@
+{<canvas id="myChart" width="" height=""></canvas>
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        type: 'line',
+
+        data: {
+            labels: ,
+            datasets: [{
+                label: "My Chart",
+                data: ,
+                backgroundColor: ,
+                borderColor: ,
+                borderWidth: 
+            }]
+        },
+
+        options: {
+            title: {
+                text: "My Chart",
+                display: true,
+            },
+            events: [],
+            legend: {
+                display: true,
+            },
+            tooltips: {
+                mode: ''
+            },
+            layout: {},
+            animation: {}
+        }
+    });
+</script>}
